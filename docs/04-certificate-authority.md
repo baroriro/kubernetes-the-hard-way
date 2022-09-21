@@ -20,7 +20,7 @@ Query IPs of hosts we will insert as certificate subject alternative names (SANs
 MASTER_1=$(dig +short master-1)
 MASTER_2=$(dig +short master-2)
 LOADBALANCER=$(dig +short loadbalancer)
-echo $LOAD_BALANCER
+echo $LOADBALANCER
 
 ```
 
