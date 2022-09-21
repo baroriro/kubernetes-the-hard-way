@@ -20,6 +20,8 @@ Query IPs of hosts we will insert as certificate subject alternative names (SANs
 MASTER_1=$(dig +short master-1)
 MASTER_2=$(dig +short master-2)
 LOADBALANCER=$(dig +short loadbalancer)
+echo $LOAD_BALANCER
+
 ```
 
 Compute cluster internal API server service address, which is always .1 in the service CIDR range. This is also required as a SAN in the API server certificate
